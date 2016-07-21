@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system"  method="upgrade">
+	<name>IP Base Currency plugin for VirtueMart</name>
+	<author>Ahsan Khan</author>
+	<creationDate>March 2016</creationDate>
+	<copyright>Copyright (C) Creative Tech Solutions. All rights reserved.</copyright>
+	<license>GNU General Public License version 3</license>
+	<authorEmail>bestkhan92@gmail.com</authorEmail>
+	<authorUrl>http://creativetech-solutions.com/</authorUrl>
+	<version>1.0.1</version>
+	<description>Custom Plugin Made to set Currency of virturemart on Ip basis</description>
+
+	<files>
+            <filename plugin="vmipcurrencies">vmipcurrencies.php</filename>
+	</files>
+        <config>
+            <fields name="params">
+                <fieldset name="basic">
+                    <field 
+                        name="default-label" 
+                        type="label" 
+                        cols="40" 
+                        rows="3"
+                        default="Thanks for using our Plugin" 
+                        label="IP/Currency relations"
+                        description="No Setting Needed for this plugin." />
+                </fieldset>
+            </fields>
+        </config>
+</extension>
